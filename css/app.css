@@ -1,0 +1,15 @@
+body {
+  background-color: rgb(255, 246, 220);
+  font-family: 'Oxygen', sans-serif
+}
+
+.content {
+  margin-top: 25px;
+  max-width: 90%;
+}
+
+.panel {
+  border-color: #d8d8d8;
+  background: #E3C48C
+
+}
