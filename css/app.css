@@ -1,15 +1,53 @@
 body {
-  background-color: rgb(255, 246, 220);
-  font-family: 'Oxygen', sans-serif
+  background: #FFFFF0;
+  font-family: 'Oxygen', sans-serif;
+  padding: 20px 0
 }
 
 .content {
-  margin-top: 25px;
-  max-width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.panel {
-  border-color: #d8d8d8;
-  background: #E3C48C
+.tagline {
+  margin-top: 30px;
 
+}
+
+.tagline p {
+  font-family: 'Architects Daughter';
+  /*font-size: 48px;*/
+}
+
+.holder {
+  margin: 0 auto;
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 4px;
+  background: #E4E2D7;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+.title {
+  height: 40px;
+  padding: 0 30px;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+}
+
+
+.box-footer {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  margin-top: 30px;
+  background: #F2F2F2;
+  color: #606860;
 }

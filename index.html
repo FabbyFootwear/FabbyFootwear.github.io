@@ -7,98 +7,57 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/foundation.css" />
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/app.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
 
   <body>
 
-    <nav class="top-bar" data-topbar role="navigation">
-      <ul class="title-area">
-        <li class="name">
-          <h1><a>Fabby Footwear</a></h1>
-        </li>
-         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
-      </ul>
+    <div class="content">
 
-      <section class="top-bar-section">
-        <!-- Right Nav Section -->
-        <ul class="right">
-          <li><a href="http://stores.ebay.co.uk/fabbyfootwear">eBay Shop</a></li>
-          <li><a href="https://www.facebook.com/">Facebook</a></li>
-          <li><a href="#" data-reveal-id="About">About</a></li>
-          <li><a href="#" data-reveal-id="Contact">Contact us</a></li>
-        </ul>
+        <div class="small-12 columns text-center">
+          <img data-interchange="[img/logoHD.png, (small)], [img/logoHD.png, (medium)], [img/logoHD.png, (large)]">
+          <noscript><img src="img/logoHD.png"></noscript>
+        </div>
 
-        <ul class="left">
-          <li><a class="show-for-large-up">Hold on to your money. Recyle. And treat your feet to the best.</a></li>
-          <!-- <li><a href="#">Facebook</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li> -->
-        </ul>
+        <div class="small-12 columns text-center tagline">
+          <p class="show-for-small-only" style="  font-size: 24px;">Nearly new for next to nothing</p>
+          <p class="show-for-medium-only" style="  font-size: 32px;">Nearly new for next to nothing</p>
+          <p class="show-for-large-up" style="  font-size: 48px;">Nearly new for next to nothing</p>
+        </div>
 
-      </section>
-    </nav>
+        <div class="row">
+          <div class="medium-6 columns">
+              <div class="holder">
+                <div class="wrapper">
+                  <div class="title">Visit our eBay store</div>
+                  <a href="http://stores.ebay.co.uk/fabbyfootwear"><img src="img/eBay.jpg"></a>
+                  <div class="box-footer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nesciunt dolore vero, magnam.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
 
-    <div class="row">
-      <div class="small-12 columns text-center">
-        <img data-interchange="[img/headerS.png, (small)], [img/headerL.png, (medium)], [img/headerL.png, (large)]">
-        <noscript><img src="img/headerL.png"></noscript>
-      </div>
+          <div class="medium-6 columns">
+            <div class="holder">
+              <div class="wrapper">
+                <div class="title">Find us on Facebook</div>
+                <a href="https://www.facebook.com/"><img src="img/Facebook.jpg"></a>
+                <div class="box-footer">
+                  <p>Dolor sit amet, consectetur adipisicing elit. Nam nesciunt dolore vero, magnam, praesentium ex unde.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
     </div>
 
-    <div class="row content">
-      <div class="medium-6 columns">
-        <div class="panel">
-          <h4>Visit our shop on eBay.</h4>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, nisi.</p>
-          <a href="http://stores.ebay.co.uk/fabbyfootwear"><img src="img/eBay.jpg"></a>
-        </div>
-      </div>
-      <div class="medium-6 columns">
-        <div class="panel">
-          <h4>Find us on Facebook</h4>
-          <p>Lorem consectetur adipisicing elit. Sunt repudiandae amet vitae voluptas.</p>
-          <a href="https://www.facebook.com/"><img src="img/Facebook.jpg"></a>
-        </div>
-      </div>
+    <div class="footer text-center">
+      Contact us at info@Fabbyfootwear.com
     </div>
-
-  <div id="Contact" class="reveal-modal" data-reveal aria-labelledby="ContactTitle" aria-hidden="true" role="dialog">
-    <h2 id="ContactTitle">Contact us</h2>
-    <form>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Your name
-            <input type="text" placeholder="John Smith" />
-          </label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Your message
-            <textarea placeholder="..."></textarea>
-          </label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="large-12 columns">
-          <label>Your email address
-            <input type="text" placeholder="me@example.com" />
-          </label>
-          <a href="#" class="button">Submit</a>
-        </div>
-      </div>
-    </form>
-    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-  </div>
-
-  <div id="About" class="reveal-modal" data-reveal aria-labelledby="AboutTitle" aria-hidden="true" role="dialog">
-    <h2 id="AboutTitle">Fabby Footwear</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consectetur odit, nihil ratione obcaecati voluptatibus quibusdam, quam eligendi consequatur expedita voluptatum aliquam explicabo aspernatur facere omnis animi error vitae optio dignissimos debitis illo harum, enim maxime cumque. Sit molestiae natus, nisi. Dolor aliquid beatae, earum, quos dolore veritatis facere dicta!</p>
-    <a class="close-reveal-modal" aria-label="Close">&#215;</a>
-  </div>
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
