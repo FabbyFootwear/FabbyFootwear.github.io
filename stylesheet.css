@@ -1,0 +1,102 @@
+
+html {
+  background-color: #F8EEE7;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 29% 71%;
+  padding: 0;
+  grid-template-rows: 2.5fr 1fr 6.5fr;
+}
+
+.item1 {
+  background-color: #FFF;
+  border: 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: #93C178;
+  text-align: center;
+  border-bottom: 4px solid #FC4A1A;
+}
+
+.item2 {
+  background-color: #FFF;
+  border: 0;
+  font-size: 3em;
+  font-weight: bold;
+  color: #FFB100;
+  text-align: center;
+  border-bottom: 4px solid #FC4A1A;
+}
+.item3 {
+  border: 0;
+  font-size: 30px;
+  text-align: center;
+  grid-column: 1 / span 2;
+}
+
+.item4 {
+  background-color: #FFF;
+  border: 0;
+  font-size: 1.7em;
+  color: #015249;
+  text-align: justify;
+  font-weight: 0;
+  line-height: 1.4;
+  padding: 15px;
+  border-top: 4px solid #FC4A1A;
+}
+
+.item5 {
+  border: 0;
+  border-top: 4px solid #FC4A1A;
+  background-color: #FFF;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  background-color: #DCD0C0;
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1em;
+  padding-right: 15px;
+  padding-left: 15px;
+  border-radius: 3px;
+  border: 1px dotted #373737;
+}
+
+a:hover {
+  background-color: #015249;
+  color: #DFDCE3;
+  border: 1px solid #FFF;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+/*@end */
